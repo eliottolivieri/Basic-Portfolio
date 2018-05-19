@@ -1,14 +1,54 @@
-.myCustom{
-background-color: #4aaaa5;
-}
+
 
 .myCustom h1{
-
 font-family: Arial, Helvetica, sans-serif;
 font: Arial;
-
+background-color: #4aaaa5;
 color: white;
 font-size: 30px;
+font-weight: lighter;
 float: left;
+padding: 18px;
+
+}
+
+.myMenu{
+width: 960px;
+height: 66px;
+}
+
+#button1{
+padding: 0;
+border: none;
+background: none;
+
+}
+
+#button2{
+ padding: 0;
+ border: none;
+ background: none;
+    
+}
+
+.myButton{
+padding: 0;
+border: none;
+background: none;
+color: red;
+}
+
+a:link{
+    color: #777777;
+    }
+
+a:hover{
+color: #4aaaa5;
+}
+
+body{
+width: 960px;
+height:960px;
+margin: auto;
 
 }
