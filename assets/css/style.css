@@ -1,46 +1,63 @@
 
 
 .myCustom h1{
-font-family: Arial, Helvetica, sans-serif;
-font: Arial;
-background-color: #4aaaa5;
-color: white;
-font-size: 30px;
-font-weight: lighter;
-float: left;
-padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+    padding: 18px;
 
 }
 
 .myCustom{
-width: 960px;
-height: 66px;
-border-bottom-width: 2px;
-border-bottom-style: solid;
-border-bottom-color: #cccccc;
+    width: 960px;
+    height: 66px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
 }
 
 
 a:link{
-text-decoration: none;
-font-size: 16px;
-font-weight: lighter;
-float: right;
-color: #777777;
-font-family: Arial, Helvetica, sans-serif;
-font: Arial;
-padding: 8px;
-line-height: 66px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    float: right;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    padding: 8px;
+    line-height: 66px;
 
 }
 
 a:hover{
-color: #4aaaa5;
+    color: #4aaaa5;
 }
 
 body{
-width: 960px;
-height:960px;
-margin: auto;
-background-image: url("Basic-Portfolio/assets/images/funky-lines.png");
+    width: 100%;
+    margin: auto;
+    background-image:url("C:/Users/Admin/Desktop/BootCamp/Basic-Portfolio/assets/images/funky-lines.png");
+    background-color: #cccccc;
 }
+#mainContent{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+
+}
+
+
+#myMenu{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    
+}
+
+
