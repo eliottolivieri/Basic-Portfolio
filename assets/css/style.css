@@ -189,6 +189,77 @@ margin-bottom: 60px;
     color: white;
 }
 
+#myForm{
+    margin-top:30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: lighter;   
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+
+}
+
+textarea[id=subject] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 14px;
+    font-weight: lighter;   
+    color: #777777;
+    
+}
+
+label[for=name]{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: lighter;   
+    color: #777777;
+}
+
+label[for=emailz]{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: lighter;   
+    color: #777777;
+}
+
+label[for=message]{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: lighter;   
+    color: #777777;
+}
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    min-width: 110px;
+}
+
+
 
 
 
