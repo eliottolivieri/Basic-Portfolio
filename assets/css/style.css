@@ -1,5 +1,72 @@
 
+/* Bellow is the body */
 
+body{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-image:url("C:/Users/Admin/Desktop/BootCamp/Basic-Portfolio/assets/images/funky-lines.png");
+    background-color: #cccccc;
+    background-repeat: repeat;
+}
+
+/*Below are all of the menu attributes.
+    The mainMenu embodies myMenu */
+#mainMenu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+/* myMenu is then centered using "margin:auto;"  */
+#myMenu{
+    width: 960px;
+    height: auto;
+    margin: auto;   
+}
+
+/*contains the centered contents of the menu*/
+.myCustom{
+    width: 960px;
+    height: 72px;
+
+}
+
+
+/*float:right is used to send all of the menuList 
+elements to the right of the body*/
+#menuList{
+    float:right;
+}
+
+/*this lists all of the menu elements inline with each other*/
+ul#menuList li{
+    display: inline;
+}
+
+/*the method below styles all the links in the menu*/
+a:link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+   
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    padding: 8px;
+    line-height: 66px;
+}
+
+/*the method below adds a hover function to the links*/
+a:hover{
+    color: #4aaaa5;
+}
+
+/*Below are the main headers' attributes*/
 .myCustom h1{
     font-family: Arial, Helvetica, sans-serif;
     font: Arial;
@@ -12,6 +79,8 @@
 
 }
 
+/*Below are the attributes of the main content 
+ Below is the title displayed in the "myContent section */
 h2#myCustom2 {
     font-family: Arial, Helvetica, sans-serif;
     font: Arial;
@@ -23,7 +92,7 @@ h2#myCustom2 {
     
 
 }
-
+/*Below is the banner used for the images in portfolio.html*/
 h3#myCustom3 {
     font-family: Arial, Helvetica, sans-serif;
     font: Arial;
@@ -37,76 +106,8 @@ h3#myCustom3 {
     width: 150px;  
 }
 
-#myBanner{
-    width:150px;
-    height: 32px;
-    
 
-    
-
-}
-
-.myCustom{
-    width: 960px;
-    height: 72px;
-
-}
-
-
-
-body{
-    width: 100%;
-    margin: auto;
-    margin-bottom: 100px;
-    background-image:url("C:/Users/Admin/Desktop/BootCamp/Basic-Portfolio/assets/images/funky-lines.png");
-    background-color: #cccccc;
-    background-repeat: repeat;
-}
-#mainMenu{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background-color: white;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-
-}
-
-#myMenu{
-    width: 960px;
-    height: auto;
-    margin: auto;
-    
-}
-#menuList{
-    float:right;
-}
-ul#menuList li{
-    display: inline;
-}
-
-a:link{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: lighter;
-   
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    font: Arial;
-    padding: 8px;
-    line-height: 66px;
-
-}
-
-
-a:hover{
-    color: #4aaaa5;
-}
-
-
-
-
+/*embodies the innerContent*/
 .myContent{
 width: 960px;
 height: auto;
@@ -119,6 +120,7 @@ margin-top: 30px;
 margin-bottom: 60px;
 }
 
+/*the idea of having the inner content is to ensure equal padding around all elements which it embodies*/
 .innerContent{
     margin: auto;
     margin-top:20px;
@@ -127,6 +129,7 @@ margin-bottom: 60px;
     height: auto;
 }
 
+/*wraps the h2 text and adds a grey border*/
 .bottomBorder{
     width: 100%;
     height: 38px;
@@ -136,13 +139,7 @@ margin-bottom: 60px;
 
 }
 
-#imgContainer{
-    height:200px;
-    width:150px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 15px;
-}
+/*below are the given attributes of the picture on the index.html page*/
 #profilePic{
     width: 230px;
     height: auto;
@@ -150,17 +147,24 @@ margin-bottom: 60px;
     margin-right: 15px;
 }
 
-#galleryPic{
-    width: 150px;
-    height: 200px;
-    float: left;
-
-    
-    
+/*serves as a container for the images in portfolio.html*/
+#imgContainer{
+    height:200px;
+    width:150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
 }
 
 
+/*below are the given attributes of the pictures in protfolio.html*/
+#galleryPic{
+    width: 150px;
+    height: 200px;
+    float: left; 
+}
 
+/*below styles the paragraph in the index.html page*/
 #aboutMeParagraph{
     font-family: Arial, Helvetica, sans-serif;
     font: Arial;
@@ -171,6 +175,7 @@ margin-bottom: 60px;
     margin-top: 13px;
 }
 
+/*below is the footer seen at the bottom of the page*/
 #myFooter{
     position: fixed;
     bottom: 0px;
@@ -183,16 +188,19 @@ margin-bottom: 60px;
     z-index:99; 
 }
 
+/*below styles and centers the copyright text on the footer*/
 #copyright{
     padding: 10px; 
     text-align: center;
     color: white;
 }
 
+/*below sets a top margin for the form on the contact.html page*/
 #myForm{
     margin-top:30px;
 }
 
+/*below styles the text-type input sections of the form */
 input[type=text] {
     width: 100%;
     padding: 12px;
@@ -206,6 +214,7 @@ input[type=text] {
 
 }
 
+/*below styles the text area in which the user types his/her message*/
 textarea[id=subject] {
     width: 100%;
     padding: 12px;
@@ -219,6 +228,7 @@ textarea[id=subject] {
     
 }
 
+/*below styles the given label of the input field of the form*/
 label[for=name]{
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -229,6 +239,7 @@ label[for=name]{
     color: #777777;
 }
 
+/*below styles the given label of the input field of the form*/
 label[for=emailz]{
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -239,6 +250,7 @@ label[for=emailz]{
     color: #777777;
 }
 
+/*below styles the given label of the input field of the form*/
 label[for=message]{
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -249,17 +261,42 @@ label[for=message]{
     color: #777777;
 }
 
-input[type=submit]{
+/*Below styles the "submit" button at the bottom of the contact.html page */
+#mySub{
     background-color: #4aaaa5;
     color: white;
     padding: 10px;
     text-align: center;
     border: none;
     font-size: 16px;
-    min-width: 110px;
+    min-width: 110px; 
 }
 
+/*Below styles the button on mouseover*/
+#mySub:hover{
+    background-color: white;
+    color: #4aaaa5;
+    border-style:solid;
+    border-width:2px;
+    border-color:#4aaaa5;
+    
+}
 
+/*Below styles the button on focus(same code as mouseover)*/
+#mySub:focus{
+    background-color: white;
+    color: #4aaaa5;
+    border-style:solid;
+    border-width:2px;
+    border-color:#4aaaa5;
+    
+}
+
+/*Below styles the button when it is clicked*/
+#mySub:active{
+    background-color: black;
+    color: white;
+}
 
 
 
