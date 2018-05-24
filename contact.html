@@ -42,23 +42,23 @@
         </div>
 
         <div class="container">
-            <form id="myForm" action="mailto:olivieri.eliott@gmail.com">
+            <form id="myForm" action="myForm.php" method="POST">
           
               <label for="name">Name</label>
               <br>
-              <input type="text" id="name" placeholder="Your name here">
+              <input type="text" name ="inputName" id="name" placeholder="Your name here">
           
                 <br>
 
               <label for="emailz">Email</label>
               <br>
-              <input type="text" id="email"  placeholder="Your email here">
+              <input type="text" id="email" name="inputEmail" placeholder="Your email here">
           
                 <br>
           
               <label for="message">Message</label>
               <br>
-              <textarea id="subject" style="height:150px"></textarea>
+              <textarea id="subject" name="inputMessage" style="height:150px"></textarea>
               <br>
               <input id="mySub" type="submit" value="Submit">
           
