@@ -1,7 +1,5 @@
 
 /* Bellow is the body */
-
-
 body{
     width: 100%;
     margin: auto;
@@ -93,6 +91,20 @@ h2#myCustom2 {
     
 
 }
+
+/*Below are the attributes of the main content 
+ Below is the title displayed in the "post submiton" section */
+ h2#myCenteredCustom2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    color:#4aaaa5;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align:center;
+    
+    
+
+}
 /*Below is the banner used for the images in portfolio.html*/
 h3#myCustom3 {
     font-family: Arial, Helvetica, sans-serif;
@@ -174,6 +186,18 @@ margin-bottom: 60px;
     font-weight: lighter;
     line-height: 32px;
     margin-top: 13px;
+}
+
+/*below styles the paragraph in the index.html page*/
+#centeredParagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    color:darkgrey;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 32px;
+    margin-top: 13px;
+    text-align: center;
 }
 
 /*below is the footer seen at the bottom of the page*/
