@@ -1,11 +1,12 @@
 
 /* Bellow is the body */
 
+
 body{
     width: 100%;
     margin: auto;
     margin-bottom: 100px;
-    background-image:url("C:/Users/Admin/Desktop/BootCamp/Basic-Portfolio/assets/images/funky-lines.png");
+    background-image:url("../images/funky-lines.png");
     background-color: #cccccc;
     background-repeat: repeat;
 }
